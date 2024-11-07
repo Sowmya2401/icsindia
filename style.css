@@ -1,0 +1,417 @@
+*
+    {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+    }
+.header
+    {
+        background-color: rgba(16, 16, 139, 0.788);
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+.header > .logo >img
+    {
+        height: 80px;
+        margin-left: 50px;
+    }
+.header > .online
+    {
+        background-color: rgb(0, 195, 255);
+        width: 140px;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+        font-size: small;
+        height: 20px;
+    }
+.header > .online:hover
+    {
+        color: grey;
+    }
+.header > .call
+    {
+        background-color: red;
+        width: 135px;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        font-size: small;
+        height: 20px;
+    }
+.header > .call:hover
+    {
+        color: green;
+    }
+.header > .email, .header > .phone
+    {
+        color: white;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+.menu
+    { 
+        margin-top: 20px;
+    }
+.menu > ul > li
+    {
+        display: inline;
+        margin-left: 31px;
+        cursor: pointer;
+    }
+.menu > ul > li:hover
+    { 
+        color: green;
+    }
+.slide
+    {
+        margin-top: 20px;
+    }
+.swiper
+    {
+        width: 100%;
+        height: 100%;
+    }
+  
+.swiper-slide
+    {
+        text-align: center;
+        font-size: 18px;
+        background: #f5efef;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+  
+.swiper-slide img
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+.text
+    {
+        position: absolute;
+        bottom: 120px;
+        left: 150px;
+        color: gray;
+    }
+.box 
+    {
+        margin-top: 10px;
+        display: flex;
+        color: white;
+        text-align: center; 
+    }
+.box > .box1, .box2, .box3, .box4
+    {
+        background-color: red;
+        height: 200px;
+        width: 300px;
+    }
+.box > .box1
+    {
+        background-color: blue;
+    }
+.box > .box2
+    {
+        background-color: skyblue;
+    }
+.box > .box3
+    {
+        background-color: green;
+    }
+.box > .box4
+    {
+        background-color: red;
+    }
+.box > .box1 > h5,
+.box > .box2 > h5,
+.box > .box3 > h5,
+.box > .box4 > h5
+    {
+        margin-top: 20px;
+    }
+.box > .box1 > p,
+.box > .box2 > p,
+.box > .box3 > p,
+.box > .box4 > p
+    {
+        margin-top: 20px;
+    }
+.box > .box1 > hr,
+.box > .box2 > hr,
+.box > .box3 > hr,
+.box > .box4 > hr
+    {
+        border-color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+.content
+    {
+        display: flex;
+    }
+.content > .picture > img
+    {
+        margin: 35px;
+        height: 300px;
+    }
+.content > .data
+    {
+        margin-top: 35px;
+    }
+.content > .data > h4
+    {
+        margin-top: 3px;
+        color: rgb(46, 40, 40);
+    }
+.content > .data > p
+    {
+        margin-top: 10px;
+        text-align: justify;
+        margin-right: 30px;
+        color: rgb(82, 77, 77);
+    }
+.btn
+    {
+        margin-top: 20px;
+        display: flex;
+        color: rgb(70, 126, 70);
+    }
+.btn > .btna
+    {
+        height: 25px;
+        width: 150px;
+        background-color: rgb(10, 153, 197);
+        text-align: center;
+        padding-top: 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+.btn > .btnb
+    {
+        height: 25px;
+        width: 150px;
+        background-color: rgb(10, 153, 197);
+        margin-left: 150px;
+        text-align: center;
+        padding-top: 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+.form 
+    {
+        margin-top: 10px;
+        background-color: rgba(48, 100, 160, 0.788);
+        width: 100%;
+        height: 370px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+.form > .form1
+    {
+        margin-top: 5px;
+        width: 60%;
+        color: rgb(252, 233, 233);
+        margin-left: 45px;
+    }
+.form > .form1 > h3
+    {
+        color: rgb(241, 229, 229);
+        margin-top: 20px;
+    }
+.form > .form1 > p
+    {
+        margin-top: 10px;
+    }
+.form > .form1 > ul > li 
+    {
+        list-style-type: square;
+    }
+.form > .form2 
+    {
+        color: white;
+        width: 50%;
+        margin-left: 20px;
+    }
+.form > .form2 > br
+    {
+        margin-top: 10px;
+    }
+.form > .form2 > input
+    {
+       height: 30px;
+       width: 350px;
+    }
+.form > .form2 > button
+    {
+        height: 30px;
+        width: 90px;
+        background-color: green;
+        border-radius: 5px;
+        border: white;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+.courses
+    {
+        margin-top: 20px;
+        color: rgb(73, 69, 69);
+    }
+.slider
+    {
+        margin-top: 25px;
+    }
+.swiper 
+    {
+        width: 100%;
+        height: 100%;
+    }
+  
+.swiper-slide 
+    {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+.swiper-slide img 
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+.interior
+    {
+        margin-top: 50px;
+    }
+.slider2
+    {
+        margin-top: 20px;
+    }
+.swiper 
+    {
+        width: 100%;
+        height: 100%;
+    }
+  
+.swiper-slide 
+    {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+.swiper-slide img 
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+.tech
+    {
+        margin-top: 30px;
+    }
+.software
+    {
+        margin-top: 30px;
+    }
+.click
+    {
+        height: 30px;
+        width: 150px;
+        background-color: blue;
+        border-radius: 5px;
+        color: green;
+        margin-top: 5px;
+        cursor: pointer;
+        float: right;
+    }
+.course
+    {
+        margin-top: 80px;
+        background-color: rgb(62, 105, 223);
+        width: 100%;
+        color: #f5efef;   
+    }
+.course > h4
+    {
+       padding-top: 20px;
+       margin-left: 30px;
+    }
+.course1
+    {
+        background-color: rgb(62, 105, 223);
+        height: 200px;
+        color: rgb(207, 198, 198);
+        width: 100%;  
+        display: flex;
+        cursor: pointer;
+    }
+.course1 > .li1 > ul
+    {
+        margin-left: 40px;
+        margin-top: 20px;
+        line-height: 30px;
+    }
+.course1 > .li2 > ul
+    {
+        margin-top: 20px;
+        margin-left: 20px;
+        line-height: 30px;
+    }
+.course1 > .li3 > ul
+    {
+        margin-left: 40px;
+        margin-top: 20px;
+        line-height: 30px;
+    }
+.course1 > .li4 > ul
+    {
+        margin-left: 40px;
+        margin-top: 20px;
+        line-height: 30px;
+    }
+.footer
+    {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        margin-left: 25px;
+    }
+.footer > .b
+    {
+       cursor: pointer;
+       margin-right: 20px;
+    }
+.footer > .b:hover
+    {
+        color: rgb(129, 192, 129);
+    }
+    
+
+
+
+
+
+      
+
+      
